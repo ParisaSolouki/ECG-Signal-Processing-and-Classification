@@ -65,9 +65,12 @@ This code works with .dat files from the MIT-BIH Arrhythmia Database. These file
 
 
 ## Applications and Advantages of PCA in ECG Analysis
-### 1. Classification and Clustering: The clusters formed in PCA space reveal the differences in morphology between normal and abnormal beats, aiding in classification.
-### 2. Anomaly Detection: PCA enables anomaly detection by revealing beats that deviate significantly from normal clusters.
-### 3.Feature Engineering: The reduced PCA components can serve as input features for machine learning models, enhancing performance while reducing computational cost.
+### 1. Classification and Clustering:
+The clusters formed in PCA space reveal the differences in morphology between normal and abnormal beats, aiding in classification.
+### 2. Anomaly Detection:
+PCA enables anomaly detection by revealing beats that deviate significantly from normal clusters.
+### 3.Feature Engineering:
+The reduced PCA components can serve as input features for machine learning models, enhancing performance while reducing computational cost.
 
 ## Conclusion
 PCA is a powerful technique in ECG signal processing. By reducing the dimensionality of QRS complexes, PCA simplifies data, enhances interpretability, and reveals insights into heartbeat variability across different arrhythmias. This makes PCA an ideal preprocessing step for further analysis, such as classification or anomaly detection.
